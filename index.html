@@ -1,31 +1,53 @@
 <!DOCTYPE html>
-<html>
+<html lang="en">
 <head>
-    <link rel="stylesheet" href="styles.css">
-
-    <meta charset="UTF-8">
-    <title>Pokémon World</title>
+  <meta charset="UTF-8">
+  <title>Pokémon World – Choose Your Starter</title>
+  <link rel="stylesheet" href="styles.css">
 </head>
 <body>
-    <div class="header-box">
-    <h1>Welcome to the Pokémon World!</h1>
-</div>
+  <div class="page">
+    <header class="header-box">
+      <h1>Pokémon World: Choose Your Own Adventure</h1>
+      <p class="tagline">
+        You wake up in a brand new region and today you finally get to choose your first partner.
+      </p>
+    </header>
 
-    <div class="navbar">
-    <a href="index.html">Home</a>
-    <a href="pikachu.html">Pikachu</a>
-    <a href="charmander.html">Charmander</a>
-    <a href="bulbasaur.html">Bulbasaur</a>
-</div>
+    <nav class="navbar">
+      <a href="index.html" class="nav-link">Home</a>
+      <a href="pikachu.html" class="nav-link">Pikachu Path</a>
+      <a href="charmander.html" class="nav-link">Charmander Path</a>
+      <a href="bulbasaur.html" class="nav-link">Forest Encounter</a>
+    </nav>
 
+    <main>
+      <section class="story">
+        <h2>Start Your Adventure</h2>
+        <p>
+          You’re standing in front of Professor Spruce’s lab. Two Poké Balls rest on the table,
+          glowing softly. Each one holds a different partner and a different adventure.
+        </p>
+        <p>Which partner do you choose?</p>
+      </section>
 
-<h1>Welcome to the Pokémon World!</h1>
+      <section class="choices">
+        <a class="choice-button" href="pikachu.html">Choose Pikachu ⚡</a>
+        <a class="choice-button" href="charmander.html">Choose Charmander 🔥</a>
+      </section>
 
-<p>Choose where you want to go. Each link below takes you to a different Pokémon.</p>
+      <figure class="image-block">
+        <img src="images/lab.jpg" alt="A bright laboratory filled with equipment, desks, and computers.">
+        <figcaption>
+          Image: "Ultrasonic Research Laboratory" by Radvino, via Wikimedia Commons, licensed under CC BY-SA 4.0.
+        </figcaption>
+      </figure>
 
-<p><a href="pikachu.html">Meet Pikachu</a></p>
-<p><a href="charmander.html">Meet Charmander</a></p>
-<p><a href="bulbasaur.html">Meet Bulbasaur</a></p>
+    </main>
 
+    <footer>
+      <p class="footer-text">Created by Christian Smith · MMP 100 · Fall 2025</p>
+    </footer>
+  </div>
 </body>
 </html>
